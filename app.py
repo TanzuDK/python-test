@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 
 st.title('Uber pickups in NYC')
+st.subheader('Build using Tanzu Application Platform')
 
 DATE_COLUMN = 'date/time'
 DATA_URL = ('https://s3-us-west-2.amazonaws.com/'
@@ -18,7 +19,7 @@ def load_data(nrows):
 
 data_load_state = st.text('Loading data...')
 data = load_data(10000)
-data_load_state.text("Done! (using st.cache)")
+data_load_state.text("Data loaded")
 
 if st.checkbox('Show raw data'):
     st.subheader('Raw data')
