@@ -10,6 +10,9 @@ metadata:
     - url: http://python-test.default.tap.tanzu.dk
       title: App Url
       icon: dashboard
+    - url: https://docs.streamlit.io
+      title: Streamlit Documentation
+      icon: dashboard
   annotations:
     backstage.io/kubernetes-label-selector: app.kubernetes.io/part-of=python-accelerator
     backstage.io/techdocs-ref: dir:.
