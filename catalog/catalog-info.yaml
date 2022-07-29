@@ -3,6 +3,9 @@ kind: Component
 metadata:
   name: python-test
   description: A python app, based on the Streamlit web framework
+  links:
+    - url: http://python-test.default.tap.tanzu.dk
+      title: Demo App
   tags:
     - python
     - streamlit
