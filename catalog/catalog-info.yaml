@@ -8,7 +8,7 @@ metadata:
     - streamlit
   annotations:
     backstage.io/kubernetes-label-selector: app.kubernetes.io/part-of=python-accelerator
-    backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: dir: .
 spec:
   type: service
   lifecycle: experimental
