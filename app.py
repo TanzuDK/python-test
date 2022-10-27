@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 st.title("Uber pickups in NYC")
-st.subheader("Build using Tanzu Application Platform v1.3 for Arla")
+st.subheader("Build using Tanzu Application Platform v1.3 with https")
 
 DATE_COLUMN = "date/time"
 DATA_URL = (
