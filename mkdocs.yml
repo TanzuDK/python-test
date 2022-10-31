@@ -1,7 +1,8 @@
-site_name: "python-test"
+site_name: 'Backstage demo catalog'
 
 nav:
-  - Home: index.md
+  - The Catalog: index.md
+  - Adding Documentation: add-docs.md
 
 plugins:
   - techdocs-core
