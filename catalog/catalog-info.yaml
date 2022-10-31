@@ -19,5 +19,5 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: default-team
+  owner: team-a
   system: demo
