@@ -21,3 +21,5 @@ spec:
   lifecycle: experimental
   owner: team-a
   system: demo
+  dependsOn:
+    - resource:default/fastapi-test
