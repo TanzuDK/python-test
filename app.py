@@ -1,9 +1,9 @@
-import streamlit as st
-import pandas as pd
 import numpy as np
+import pandas as pd
+import streamlit as st
 
 st.title("Uber pickups in NYC")
-st.subheader("Build using Tanzu Application Platform v1.3 with https")
+st.subheader("Build using Tanzu Application Platform v1.3.2 with https")
 
 DATE_COLUMN = "date/time"
 DATA_URL = (
