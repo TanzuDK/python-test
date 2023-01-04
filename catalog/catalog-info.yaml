@@ -19,7 +19,7 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: team-a
-  system: demo
+  owner: denmark-team
+  system: python-demo
   dependsOn:
     - resource:default/fastapi-test
