@@ -1,5 +1,5 @@
 # backstage system
 
-[Backstage](https://backstage.io/) is an open platform for building developer portals.
+[Tanzu Application Platform](https://tanzu.vmware.com/application-platform) is an platform for building developer portals.
 
-More information about the backstage system would be listed here.
+More information about TAP system would be listed here.
