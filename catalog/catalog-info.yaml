@@ -20,6 +20,6 @@ spec:
   type: service
   lifecycle: experimental
   owner: denmark-team
-  system: python-demo
+  system: demo
   dependsOn:
     - resource:default/fastapi-test
