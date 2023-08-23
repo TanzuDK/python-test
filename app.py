@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 
 st.title("Uber pickups in NYC")
-st.subheader("Build using Tanzu Application Platform v1.3.2 - AppTest")
+st.subheader("Build using Tanzu Application Platform v1.3.2 - Demo")
 
 DATE_COLUMN = "date/time"
 DATA_URL = (
