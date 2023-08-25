@@ -4,11 +4,20 @@ metadata:
   name: python-test
   labels:
     apps.tanzu.vmware.com/workload-type: web
-    app.kubernetes.io/part-of: python-accelerator
+    app.kubernetes.io/part-of: python-test
     apps.tanzu.vmware.com/has-tests: "true"
   annotations:
     autoscaling.knative.dev/minScale: "1"
 spec:
+  params:
+    - name: annotations
+      value:
+        autoscaling.knative.dev/minScale: "1"
+    - name: clusterBuilder
+      value: default
+    - name: testing_pipeline_matching_labels
+      value:
+        apps.tanzu.vmware.com/pipeline: test-python
   source:
     git:
       url: https://github.com/TanzuDK/python-test.git
