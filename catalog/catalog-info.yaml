@@ -14,7 +14,7 @@ metadata:
       title: Streamlit Documentation
       icon: dashboard
   annotations:
-    backstage.io/kubernetes-label-selector: app.kubernetes.io/part-of=python-accelerator
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/part-of=python-test
     backstage.io/techdocs-ref: dir:.
 spec:
   type: service
